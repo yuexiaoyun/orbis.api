@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orbis.Api", "Orbis.Api\Orbis.Api.csproj", "{C44B0DA2-2420-4625-8755-2034F8CB957A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orbis", "Orbis\Orbis.csproj", "{2690FDBA-0A71-4E77-832F-8D4189793907}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orbis.DataAccess", "Orbis.DataAccess\Orbis.DataAccess.csproj", "{F77891B6-D0F6-4D95-A744-E5106FAFC571}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orbis.Container", "Orbis.Container\Orbis.Container.csproj", "{312BBA41-8716-4285-AAC6-490E3DEBFD8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orbis.Tests", "Orbis.Tests\Orbis.Tests.csproj", "{20EB9E8B-C3A3-4DFB-8A1B-EAA80D7A3840}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C44B0DA2-2420-4625-8755-2034F8CB957A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C44B0DA2-2420-4625-8755-2034F8CB957A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C44B0DA2-2420-4625-8755-2034F8CB957A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C44B0DA2-2420-4625-8755-2034F8CB957A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2690FDBA-0A71-4E77-832F-8D4189793907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2690FDBA-0A71-4E77-832F-8D4189793907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2690FDBA-0A71-4E77-832F-8D4189793907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2690FDBA-0A71-4E77-832F-8D4189793907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F77891B6-D0F6-4D95-A744-E5106FAFC571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F77891B6-D0F6-4D95-A744-E5106FAFC571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F77891B6-D0F6-4D95-A744-E5106FAFC571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F77891B6-D0F6-4D95-A744-E5106FAFC571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{312BBA41-8716-4285-AAC6-490E3DEBFD8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{312BBA41-8716-4285-AAC6-490E3DEBFD8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{312BBA41-8716-4285-AAC6-490E3DEBFD8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{312BBA41-8716-4285-AAC6-490E3DEBFD8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20EB9E8B-C3A3-4DFB-8A1B-EAA80D7A3840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20EB9E8B-C3A3-4DFB-8A1B-EAA80D7A3840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20EB9E8B-C3A3-4DFB-8A1B-EAA80D7A3840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20EB9E8B-C3A3-4DFB-8A1B-EAA80D7A3840}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

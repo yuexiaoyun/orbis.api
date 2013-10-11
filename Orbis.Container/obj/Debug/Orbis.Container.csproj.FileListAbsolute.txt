@@ -1,0 +1,35 @@
+C:\Users\pdudev.IBORIS\Documents\Orbis.Framework\Orbis.Container\bin\Debug\Orbis.Container.dll
+C:\Users\pdudev.IBORIS\Documents\Orbis.Framework\Orbis.Container\bin\Debug\Orbis.Container.pdb
+C:\Users\pdudev.IBORIS\Documents\Orbis.Framework\Orbis.Container\bin\Debug\Castle.Core.dll
+C:\Users\pdudev.IBORIS\Documents\Orbis.Framework\Orbis.Container\bin\Debug\Castle.Windsor.dll
+C:\Users\pdudev.IBORIS\Documents\Orbis.Framework\Orbis.Container\bin\Debug\Castle.Core.pdb
+C:\Users\pdudev.IBORIS\Documents\Orbis.Framework\Orbis.Container\bin\Debug\Castle.Core.xml
+C:\Users\pdudev.IBORIS\Documents\Orbis.Framework\Orbis.Container\bin\Debug\Castle.Windsor.pdb
+C:\Users\pdudev.IBORIS\Documents\Orbis.Framework\Orbis.Container\bin\Debug\Castle.Windsor.xml
+C:\Users\pdudev.IBORIS\Documents\Orbis.Framework\Orbis.Container\obj\Debug\Orbis.Container.csprojResolveAssemblyReference.cache
+C:\Users\pdudev.IBORIS\Documents\Orbis.Framework\Orbis.Container\obj\Debug\Orbis.Container.Strings.resources
+C:\Users\pdudev.IBORIS\Documents\Orbis.Framework\Orbis.Container\obj\Debug\Orbis.Container.csproj.GenerateResource.Cache
+C:\Users\pdudev.IBORIS\Documents\Orbis.Framework\Orbis.Container\obj\Debug\Orbis.Container.dll
+C:\Users\pdudev.IBORIS\Documents\Orbis.Framework\Orbis.Container\obj\Debug\Orbis.Container.pdb
+C:\Projects\C#\Orbis.Framework\Orbis.Container\bin\Debug\Orbis.Container.dll
+C:\Projects\C#\Orbis.Framework\Orbis.Container\bin\Debug\Orbis.Container.pdb
+C:\Projects\C#\Orbis.Framework\Orbis.Container\bin\Debug\Castle.Core.pdb
+C:\Projects\C#\Orbis.Framework\Orbis.Container\bin\Debug\Castle.Core.xml
+C:\Projects\C#\Orbis.Framework\Orbis.Container\bin\Debug\Castle.Windsor.pdb
+C:\Projects\C#\Orbis.Framework\Orbis.Container\bin\Debug\Castle.Windsor.xml
+C:\Projects\C#\Orbis.Framework\Orbis.Container\obj\Debug\Orbis.Container.csprojResolveAssemblyReference.cache
+C:\Projects\C#\Orbis.Framework\Orbis.Container\obj\Debug\Orbis.Strings.resources
+C:\Projects\C#\Orbis.Framework\Orbis.Container\obj\Debug\Orbis.Container.csproj.GenerateResource.Cache
+C:\Projects\C#\Orbis.Framework\Orbis.Container\obj\Debug\Orbis.Container.dll
+C:\Projects\C#\Orbis.Framework\Orbis.Container\obj\Debug\Orbis.Container.pdb
+C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Container\bin\Debug\Orbis.Container.dll
+C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Container\bin\Debug\Orbis.Container.pdb
+C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Container\bin\Debug\Castle.Core.pdb
+C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Container\bin\Debug\Castle.Core.xml
+C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Container\bin\Debug\Castle.Windsor.pdb
+C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Container\bin\Debug\Castle.Windsor.xml
+C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Container\obj\Debug\Orbis.Container.csprojResolveAssemblyReference.cache
+C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Container\obj\Debug\Orbis.Strings.resources
+C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Container\obj\Debug\Orbis.Container.csproj.GenerateResource.Cache
+C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Container\obj\Debug\Orbis.Container.dll
+C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Container\obj\Debug\Orbis.Container.pdb
