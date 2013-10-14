@@ -27,12 +27,8 @@ C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Tests\bin
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Tests\bin\Debug\MongoDB.Driver.xml
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Tests\bin\Debug\System.Web.Http.Tracing.xml
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Tests\bin\Debug\System.Web.Http.WebHost.xml
-C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Tests\bin\Debug\Castle.Windsor.pdb
-C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Tests\bin\Debug\Castle.Windsor.xml
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Tests\bin\Debug\MongoDB.Bson.pdb
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Tests\bin\Debug\MongoDB.Bson.xml
-C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Tests\bin\Debug\Castle.Core.pdb
-C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Tests\bin\Debug\Castle.Core.xml
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Tests\obj\Debug\Orbis.Tests.csprojResolveAssemblyReference.cache
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Tests\obj\Debug\Orbis.Tests.dll
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Tests\obj\Debug\Orbis.Tests.pdb

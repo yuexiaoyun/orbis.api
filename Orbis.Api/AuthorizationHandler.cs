@@ -1,18 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net.Http;
-using System.Threading;
-using System.Threading.Tasks;
+using System.Security.Claims;
 using System.Web;
 
 namespace Orbis.Api
 {
-    public class AuthorizationHandler : DelegatingHandler
+    public class AuthorizationHandler : ClaimsAuthorizationManager
     {
-        protected override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+        public override bool CheckAccess(AuthorizationContext context)
         {
-            return base.SendAsync(request, cancellationToken);
+            return base.CheckAccess(context);
         }
     }
 }

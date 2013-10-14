@@ -6,9 +6,12 @@ using System.Linq.Expressions;
 using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
+using System.Security.Claims;
+using System.Security.Principal;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Web;
 using System.Web.Configuration;
 using System.Web.Helpers;
 using System.Web.Http;
@@ -188,35 +191,44 @@ namespace Orbis.Api.Controllers
         private static readonly ConcurrentDictionary<string, EntityTagHeaderValue> etags = new ConcurrentDictionary<string, EntityTagHeaderValue>(); 
     }
 
-    public class AuthInfo
-    {
-        public string Username { get; set; }
-        public string Password { get; set; }
-    }
-  
     public class AuthController : ControllerBase
     {
-        public async Task<HttpResponseMessage> Post([FromBody] AuthInfo info)
+        public async Task<HttpResponseMessage> Post([FromBody] string token)
         {
+            var credentials = Convert.FromBase64String(token).ToString();
+            var colonIndex = credentials.IndexOfAny(new[] { ':' });
+            var user = credentials.Substring(0, colonIndex + 1);
+            var password = credentials.Substring(colonIndex, credentials.Length - colonIndex + 1);
+
             var collection = Database.GetCollection<User>("users");
-            var result = collection.FindOneAs<User>(Query<User>.EQ(x => x.Username, info.Username));
+            var result = collection.FindOneAs<User>(Query<User>.EQ(x => x.Username, user));
             
             if(result == null)
             {
                 return Request.CreateErrorResponse(HttpStatusCode.Unauthorized, new Exception("Wrong username"));
             }
 
-            var hash = info.Password.Md5Hash();
+            var hash = password.Md5Hash();
 
             if(hash != result.Password)
             {
                 return Request.CreateErrorResponse(HttpStatusCode.Unauthorized, new Exception("Wrong password"));
             }
 
-            var token = Guid.NewGuid();
-
             var response = Request.CreateResponse<object>(HttpStatusCode.OK, null);
-            response.Headers.AddCookies(new[] { new CookieHeaderValue("AuthToken", token.ToString()) });
+
+            var claims = new[]
+            {
+                new Claim(ClaimTypes.Name, user), 
+                new Claim(ClaimTypes.Email, result.EmailAddress),
+                new Claim(ClaimTypes.Role, "Admin"), 
+            };
+
+            var identity = new ClaimsIdentity(claims, "Claims");
+            var prinicpal = new ClaimsPrincipal(identity);
+            
+            Thread.CurrentPrincipal = prinicpal;
+            HttpContext.Current.User = prinicpal;
 
             return response;
         }

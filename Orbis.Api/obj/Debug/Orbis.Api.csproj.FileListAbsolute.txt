@@ -82,10 +82,6 @@ C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Api\bin\C
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Api\bin\Orbis.DataAccess.pdb
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Api\bin\Orbis.pdb
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Api\bin\Orbis.Container.pdb
-C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Api\bin\Castle.Windsor.pdb
-C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Api\bin\Castle.Windsor.xml
-C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Api\bin\Castle.Core.pdb
-C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Api\bin\Castle.Core.xml
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Api\bin\orbis.api.config
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Api\bin\castle.orbis.api.config
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Api\bin\AutoMapper.dll

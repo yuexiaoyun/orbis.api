@@ -19,7 +19,8 @@ namespace Orbis.Tests
 
             var client = new RestClient("http://localhost:19888/");
             var request = new RestRequest("api/auth", Method.POST);
-            request.AddObject(new { Username = "preslav", Password = "dr0lhtis" });
+            var token = Convert.ToBase64String(System.Text.Encoding.Unicode.GetBytes("preslav:dr0lhtis"));
+            request.AddBody(token);
             var response = await client.ExecuteTaskAsync(request);
 
         }

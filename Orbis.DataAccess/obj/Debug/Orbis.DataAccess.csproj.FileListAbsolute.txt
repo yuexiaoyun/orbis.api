@@ -7,9 +7,5 @@ C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.DataAcces
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.DataAccess\bin\Debug\Castle.Core.dll
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.DataAccess\bin\Debug\Orbis.Container.pdb
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.DataAccess\bin\Debug\Orbis.pdb
-C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.DataAccess\bin\Debug\Castle.Windsor.pdb
-C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.DataAccess\bin\Debug\Castle.Windsor.xml
-C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.DataAccess\bin\Debug\Castle.Core.pdb
-C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.DataAccess\bin\Debug\Castle.Core.xml
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.DataAccess\obj\Debug\Orbis.DataAccess.dll
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.DataAccess\obj\Debug\Orbis.DataAccess.pdb

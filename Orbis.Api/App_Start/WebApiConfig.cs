@@ -9,7 +9,7 @@ namespace Orbis.Api
     {
         public static void Register(HttpConfiguration config)
         {
-            config.MessageHandlers.Add(new AuthorizationHandler());
+            //config.MessageHandlers.Add(new AuthHandler());
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
