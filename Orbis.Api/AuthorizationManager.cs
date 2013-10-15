@@ -6,7 +6,7 @@ using System.Web;
 
 namespace Orbis.Api
 {
-    public class AuthorizationHandler : ClaimsAuthorizationManager
+    public class AuthorizationManager : ClaimsAuthorizationManager
     {
         public override bool CheckAccess(AuthorizationContext context)
         {

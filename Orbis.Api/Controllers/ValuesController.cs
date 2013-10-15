@@ -25,6 +25,7 @@ using MongoDB.Driver.Builders;
 using MongoDB.Driver.Linq;
 using Newtonsoft.Json;
 using System.Security.Cryptography;
+using WebGrease.Css.Extensions;
 
 namespace Orbis.Api.Controllers
 {
@@ -191,49 +192,7 @@ namespace Orbis.Api.Controllers
         private static readonly ConcurrentDictionary<string, EntityTagHeaderValue> etags = new ConcurrentDictionary<string, EntityTagHeaderValue>(); 
     }
 
-    public class AuthController : ControllerBase
-    {
-        public async Task<HttpResponseMessage> Post([FromBody] string token)
-        {
-            var credentials = Convert.FromBase64String(token).ToString();
-            var colonIndex = credentials.IndexOfAny(new[] { ':' });
-            var user = credentials.Substring(0, colonIndex + 1);
-            var password = credentials.Substring(colonIndex, credentials.Length - colonIndex + 1);
-
-            var collection = Database.GetCollection<User>("users");
-            var result = collection.FindOneAs<User>(Query<User>.EQ(x => x.Username, user));
-            
-            if(result == null)
-            {
-                return Request.CreateErrorResponse(HttpStatusCode.Unauthorized, new Exception("Wrong username"));
-            }
-
-            var hash = password.Md5Hash();
-
-            if(hash != result.Password)
-            {
-                return Request.CreateErrorResponse(HttpStatusCode.Unauthorized, new Exception("Wrong password"));
-            }
-
-            var response = Request.CreateResponse<object>(HttpStatusCode.OK, null);
-
-            var claims = new[]
-            {
-                new Claim(ClaimTypes.Name, user), 
-                new Claim(ClaimTypes.Email, result.EmailAddress),
-                new Claim(ClaimTypes.Role, "Admin"), 
-            };
-
-            var identity = new ClaimsIdentity(claims, "Claims");
-            var prinicpal = new ClaimsPrincipal(identity);
-            
-            Thread.CurrentPrincipal = prinicpal;
-            HttpContext.Current.User = prinicpal;
-
-            return response;
-        }
-    }
-
+    [Authorize]
     [RemoveXmlForGoogleChromeFilter]
     public abstract class CrudController<TEntity, TContract> : ControllerBase
         where TEntity : class, IEntity, new()
@@ -314,24 +273,22 @@ namespace Orbis.Api.Controllers
         }
     }
 
-    public static class StringExtensions
+    public static class BasicExtensions
     {
+        public static string Md5Hash(this byte[] input)
+        {
+            var md5 = MD5.Create();
+            var hash = new StringBuilder();
+
+            md5.ComputeHash(input)
+                .ForEach(x => hash.AppendFormat("{0:x2}", x));
+
+            return hash.ToString();
+        }
+
         public static string Md5Hash(this string input)
         {
-            // step 1, calculate MD5 hash from input
-            var md5 = System.Security.Cryptography.MD5.Create();
-            var inputBytes = System.Text.Encoding.ASCII.GetBytes(input);
-            var hash = md5.ComputeHash(inputBytes);
-
-            // step 2, convert byte array to hex string
-            var sb = new StringBuilder();
-
-            foreach(var t in hash)
-            {
-                sb.Append(t.ToString("X2"));
-            }
-
-            return sb.ToString().ToLower();
+            return Encoding.UTF8.GetBytes(input).Md5Hash();
         }
     }
 }

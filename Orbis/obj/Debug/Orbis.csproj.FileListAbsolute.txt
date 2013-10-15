@@ -2,4 +2,3 @@ C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis\bin\Debug
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis\bin\Debug\Orbis.pdb
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis\obj\Debug\Orbis.dll
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis\obj\Debug\Orbis.pdb
-C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis\obj\Debug\Orbis.csprojResolveAssemblyReference.cache

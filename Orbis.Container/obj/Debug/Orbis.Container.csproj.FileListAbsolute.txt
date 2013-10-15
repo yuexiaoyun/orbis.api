@@ -24,8 +24,8 @@ C:\Projects\C#\Orbis.Framework\Orbis.Container\obj\Debug\Orbis.Container.dll
 C:\Projects\C#\Orbis.Framework\Orbis.Container\obj\Debug\Orbis.Container.pdb
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Container\bin\Debug\Orbis.Container.dll
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Container\bin\Debug\Orbis.Container.pdb
-C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Container\obj\Debug\Orbis.Container.csprojResolveAssemblyReference.cache
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Container\obj\Debug\Orbis.Strings.resources
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Container\obj\Debug\Orbis.Container.csproj.GenerateResource.Cache
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Container\obj\Debug\Orbis.Container.dll
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Container\obj\Debug\Orbis.Container.pdb
+C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Container\obj\Debug\Orbis.Container.csprojResolveAssemblyReference.cache

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using Orbis.Api.Handlers;
 
 namespace Orbis.Api
 {
@@ -9,13 +10,13 @@ namespace Orbis.Api
     {
         public static void Register(HttpConfiguration config)
         {
-            //config.MessageHandlers.Add(new AuthHandler());
-
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            config.MessageHandlers.Add(new DigestAuthenticationHandler());
 
             //var appXmlType = config.Formatters.XmlFormatter.SupportedMediaTypes.FirstOrDefault(t => t.MediaType == "application/xml");
             //config.Formatters.XmlFormatter.SupportedMediaTypes.Remove(appXmlType);

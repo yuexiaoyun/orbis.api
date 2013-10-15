@@ -37,3 +37,5 @@ C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Tests\bin
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Tests\bin\Debug\RestSharp.xml
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Tests\bin\Debug\AutoMapper.dll
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Tests\bin\Debug\AutoMapper.xml
+C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Tests\bin\Debug\WebGrease.dll
+C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.Tests\bin\Debug\Antlr3.Runtime.dll

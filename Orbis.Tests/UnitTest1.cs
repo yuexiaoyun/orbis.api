@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Newtonsoft.Json;
@@ -18,11 +19,10 @@ namespace Orbis.Tests
         {
 
             var client = new RestClient("http://localhost:19888/");
-            var request = new RestRequest("api/auth", Method.POST);
-            var token = Convert.ToBase64String(System.Text.Encoding.Unicode.GetBytes("preslav:dr0lhtis"));
-            request.AddBody(token);
+            var request = new RestRequest("api/users", Method.GET);
+            var token = Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes("preslav:dr0lhtis"));
+            request.AddParameter("Authorization", "Basic " + token, ParameterType.HttpHeader);
             var response = await client.ExecuteTaskAsync(request);
-
         }
     }
 }
