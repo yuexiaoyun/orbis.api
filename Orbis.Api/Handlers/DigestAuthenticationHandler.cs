@@ -18,6 +18,7 @@ using System.Web.Configuration;
 using MongoDB.Driver;
 using MongoDB.Driver.Builders;
 using Orbis.Api.Controllers;
+using Orbis.Api.Extensions;
 
 namespace Orbis.Api.Handlers
 {

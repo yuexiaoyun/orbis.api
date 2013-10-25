@@ -1,25 +1,23 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.Practices.Unity;
 
 namespace Orbis
 {
     public static class QueryableExtensions
     {
         public static IQueryable<TEntity> From<TEntity, TFilter>(this IQueryable<TEntity> queryable, TFilter filter)
-            where TEntity : IEntity
+            where TEntity : Entity
             where TFilter : class, IFilter, new()
         {
-            var queryBuilder = ContainerContext.Container.GetService<IQueryBuilder<TEntity, TFilter>>();
+            var dao = ContainerContext.Container.Resolve<IDao<TEntity, TFilter>>();
 
-            if(queryBuilder == null)
+            if(dao == null)
             {
-                throw new InvalidOperationException("No Query Builder registered.");
+                throw new InvalidOperationException("No dao registered.");
             }
 
-            return queryBuilder.FillCriteria(queryable, filter);
+            return dao.FillCriteria(queryable, filter);
         }
     }
 }

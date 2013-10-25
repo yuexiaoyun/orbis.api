@@ -19,9 +19,10 @@ namespace Orbis.Tests
         {
 
             var client = new RestClient("http://localhost:19888/");
-            var request = new RestRequest("api/users", Method.GET);
-            var token = Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes("preslav:dr0lhtis"));
-            request.AddParameter("Authorization", "Basic " + token, ParameterType.HttpHeader);
+            var request = new RestRequest("api/users", Method.POST);
+            request.AddObject(new UserT() { EmailAddress = "preslav87@gmail.com", Password = "dr0lhtis", Username = "preslav" });
+            //var token = Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes("preslav:dr0lhtis"));
+            //request.AddParameter("Authorization", "Basic " + token, ParameterType.HttpHeader);
             var response = await client.ExecuteTaskAsync(request);
         }
     }

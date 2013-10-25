@@ -38,8 +38,9 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="RestSharp">
-      <HintPath>..\packages\RestSharp.104.2.0\lib\net4\RestSharp.dll</HintPath>
+    <Reference Include="RestSharp, Version=104.3.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\RestSharp.104.3.3\lib\net4\RestSharp.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Net.Http" />
@@ -62,13 +63,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DataContracts\Orbis.DataContracts.csproj">
+      <Project>{9d71413b-ffa5-4c51-b32b-e60d5b775a33}</Project>
+      <Name>Orbis.DataContracts</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Orbis.Api\Orbis.Api.csproj">
       <Project>{c44b0da2-2420-4625-8755-2034f8cb957a}</Project>
       <Name>Orbis.Api</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Orbis.Container\Orbis.Container.csproj">
-      <Project>{312bba41-8716-4285-aac6-490e3debfd8b}</Project>
-      <Name>Orbis.Container</Name>
     </ProjectReference>
     <ProjectReference Include="..\Orbis.DataAccess\Orbis.DataAccess.csproj">
       <Project>{f77891b6-d0f6-4d95-a744-e5106fafc571}</Project>

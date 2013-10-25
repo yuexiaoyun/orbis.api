@@ -1,14 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Web;
-using System.Web.Http;
+﻿using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
-using AutoMapper;
-using Orbis.Api.Controllers;
 
 namespace Orbis.Api
 {
@@ -26,31 +19,7 @@ namespace Orbis.Api
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
-            ContainerContext.Configure();
-
-            ConfigureObjectMappings();
-        }
-
-        protected void Application_End()
-        {
-            ContainerContext.Dispose();
-        }
-
-        private void ConfigureObjectMappings()
-        {
-            Mapper.CreateMap<User, UserT>()
-                .ForMember(x => x.Id, x => x.MapFrom(y => y.PublicId))
-                .ForMember(x => x.Username, x => x.MapFrom(y => y.Username))
-                .ForMember(x => x.Password, x => x.MapFrom(y => y.Password))
-                .ForMember(x => x.EmailAddress, x => x.MapFrom(y => y.EmailAddress));
-            Mapper.CreateMap<UserT, User>()
-                .ForMember(x => x.Id, x => x.Ignore())
-                .ForMember(x => x.PublicId, x => x.MapFrom(y => y.Id))
-                .ForMember(x => x.Username, x => x.MapFrom(y => y.Username))
-                .ForMember(x => x.Password, x => x.MapFrom(y => y.Password))
-                .ForMember(x => x.EmailAddress, x => x.MapFrom(y => y.EmailAddress));
-
-            Mapper.AssertConfigurationIsValid();
+            Bootstrapper.Initialise();
         }
     }
 }

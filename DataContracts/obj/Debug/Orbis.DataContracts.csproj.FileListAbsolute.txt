@@ -1,0 +1,9 @@
+C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\DataContracts\bin\Debug\Orbis.DataContracts.dll
+C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\DataContracts\bin\Debug\Orbis.DataContracts.pdb
+C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\DataContracts\obj\Debug\Orbis.DataContracts.dll
+C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\DataContracts\obj\Debug\Orbis.DataContracts.pdb
+C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\DataContracts\obj\Debug\Orbis.DataContracts.csprojResolveAssemblyReference.cache
+C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\DataContracts\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\DataContracts\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\DataContracts\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\DataContracts\bin\Debug\Microsoft.Practices.Unity.Configuration.xml

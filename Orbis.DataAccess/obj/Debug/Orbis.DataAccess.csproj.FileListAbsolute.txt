@@ -1,11 +1,13 @@
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.DataAccess\obj\Debug\Orbis.DataAccess.csprojResolveAssemblyReference.cache
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.DataAccess\bin\Debug\Orbis.DataAccess.dll
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.DataAccess\bin\Debug\Orbis.DataAccess.pdb
-C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.DataAccess\bin\Debug\Orbis.Container.dll
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.DataAccess\bin\Debug\Orbis.dll
-C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.DataAccess\bin\Debug\Castle.Windsor.dll
-C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.DataAccess\bin\Debug\Castle.Core.dll
-C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.DataAccess\bin\Debug\Orbis.Container.pdb
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.DataAccess\bin\Debug\Orbis.pdb
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.DataAccess\obj\Debug\Orbis.DataAccess.dll
 C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.DataAccess\obj\Debug\Orbis.DataAccess.pdb
+C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.DataAccess\bin\Debug\Orbis.DataContracts.dll
+C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.DataAccess\bin\Debug\Orbis.DataContracts.pdb
+C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.DataAccess\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.DataAccess\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.DataAccess\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Preslav\Documents\Visual Studio 2012\Projects\Orbis.Api\Orbis.DataAccess\bin\Debug\Microsoft.Practices.Unity.Configuration.xml

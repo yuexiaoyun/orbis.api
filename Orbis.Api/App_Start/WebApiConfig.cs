@@ -16,7 +16,7 @@ namespace Orbis.Api
                 defaults: new { id = RouteParameter.Optional }
             );
 
-            config.MessageHandlers.Add(new DigestAuthenticationHandler());
+            //config.MessageHandlers.Add(new BasicAuthenticationHandler());
 
             //var appXmlType = config.Formatters.XmlFormatter.SupportedMediaTypes.FirstOrDefault(t => t.MediaType == "application/xml");
             //config.Formatters.XmlFormatter.SupportedMediaTypes.Remove(appXmlType);
